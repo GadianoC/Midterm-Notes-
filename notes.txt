@@ -46,7 +46,7 @@ encapsulation (hiding information from the user)  ex. self.__first_name
 polymorphism
 inheritance
 
-constructor method in python
+constructor are the method in a class
 required parameters or positional parameters (type annotation)
 #attributes
 
@@ -141,3 +141,93 @@ void main() {
   print(arr_example); 
 }
 
+void main() {
+  List<int> scores = [20, 30, 40, 50, 60, 70];
+
+                                None value so you can put anything you want 👍
+                                ^^^^^
+  for (int score in scores.where((x) => x >= 30)) {
+        print('${score}');
+  }
+}
+
+dart is null safety which means that it cannot put datatypes without variables unless you put and optional symbol?
+ex.
+{
+int? x;
+print(x);
+}
+
+Functions (required)
+void Main (is a function)
+
+void main() {
+  print(greet());
+}
+
+String greet() {
+  return 'hello';
+}
+
+Name arguments or named parameters
+
+void main() {
+  print(greet(age: 20,name: 'Christian'));
+  print(greet2('Christian', 20));
+}
+
+// Name parameters 👍👍👍👍
+String greet({required String name,required int age}) {
+  return 'I am ${name}, and I am ${age} years old';
+}
+
+//positional Parameters 👎👎👎👎👎
+String greet2(String name, int age) {
+  return 'I am ${name}, and I am ${age} years old 😒';
+}
+
+//Positional Parameters
+void main() {
+//   user defined datatype
+  Student student = Student('John', 'Soul', 'BSCS', '2nd year');
+  print(student.fullName());
+//   or is do not know then var student = Student();
+}
+
+class Student{
+  String? firstName;
+  String? lastName;
+  String? course;
+  String? yearLevel;
+  
+  //attribute first before constructor
+  Student(this.firstName, this.lastName, this.course, this.yearLevel);
+  
+  //Method
+  String fullName() {
+    return '${firstName} ${lastName}';
+  }
+}
+
+//Name Parameters
+void main() {
+//   user defined datatype 🎯🎯🎯
+  Student student = Student(yearLevel: '2nd year', firstName: 'John',lastName: 'Soul',course: 'BSCS');
+  print(student.fullName());
+//   or is do not know then var student = Student(); 
+}
+
+class Student{
+  String? firstName;
+  String? lastName;
+  String? course;
+  String? yearLevel;
+  
+  //attribute first before constructor
+  Student({required this.firstName,required this.lastName,required this.course,required this.yearLevel});
+  
+  //Method
+  String fullName() {
+    return '${firstName} ${lastName}';
+  }
+}
