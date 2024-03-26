@@ -1,0 +1,119 @@
+Recap of programming paradigm
+review of oop
+dart programming paradigm
+
+Programming paradigm
+
+Functional Programming
+- Higher order, Immuutability
+
+two type of Function
+- invoking
+- Reference
+
+Procedural programming
+- algorithms and data managing
+
+Object-oriented Programming
+- Easiliy to understand 
+
+Object oriented Design (is not replaceable)
+- Important in programming
+
+objects and classes ():
+instance of a class (object) (An object is called an object because you put a value in it)
+blueprint (class)
+
+what is your object design
+
+design pattern - preference of the design
+two types of assosiation 
+
+agrigation
+composition
+
+interact between classes
+
+system divide 
+
+We have two OOD & DSA (Data structure )
+
+logical
+- data structure and algorithm
+
+three classification to remember
+encapsulation (hiding information from the user)  ex. self.__first_name
+polymorphism
+inheritance
+
+constructor method in python
+required parameters or positional parameters (type annotation)
+#attributes
+
+return annotation (not important in code but important in documentation)
+
+and whe have methods (basically functiuons)
+-envoking or referencing
+
+Type inference - when a variable is returning to the method. (for example when return value of an integer returning to the method is called type inference)
+
+dynamic - meaning the variable can be interchangeable
+
+attributes into a new value
+messy code(because it not pretty to look at (reasons that it is not readable, clarity)) (it must be readable)
+{ Property decorator
+@property (allow to acces methods as attributes) 😍😍😍
+
+@name.setter
+} Why we do this is to not be crowded in code
+
+When getter there is always a return value ()
+
+Since the method, is already a @property decorator then it is already an attribute therefore it does not need a value parameter
+since the method is already an attribute then you can change the value
+
+assosiation (reference)
+- interaction between classes and methodes.
+
+A class can be associated with another class (composition) 😡😡😡
+
+def __init__(self, damage: str, monster: Monster)
+You can reference the monster class into the player class
+
+implementation (method within class is called implementation)
+instruction (outside of the class)
+
+-- association is bad practice so need --
+Inheritance
+- class is directly associated to other classes (parent and class)
+- they are used to make the code readable
+
+implementation is still working but readability to other programmers is bad
+
+Polymorphism (function calling)
+criteria: when the Inheritance 
+- Override (attributes and methods in a different class can be changed)
+- overload 
+
+structural programming language (mostly used in data base)
+pascal
+
+👍👍👍👍👍
+Dart programming language -> Supported Object oriented programming language and its concept. 
+
+web development is used in java script
+JavaScirpt (Prototype based classification language) (for user experience)
+
+criteria for OOP
+inheritance
+supported encapsulation
+supported polymorphism
+
+Dart Programming language 🎯🎯🎯🎯🎯
+- general-purpose programming language
+- created by google
+Follows an Object-Oriented programming approach (inheritance, encapsulation, polymorphism)
+-statically Typed (data type or value that cannot be changed and not dynamic)
+Dart mixture of c++ and Java.
+
+
