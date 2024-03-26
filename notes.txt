@@ -116,4 +116,28 @@ Follows an Object-Oriented programming approach (inheritance, encapsulation, pol
 -statically Typed (data type or value that cannot be changed and not dynamic)
 Dart mixture of c++ and Java.
 
+Undefined variables
+Undeclared variables
+initialization (declared a variable the you initiate it)
+
+'var' is when you dont want to specify the datatype of a variable. (Type Inference)
+
+void main() {
+  String name = 'Christian';
+  print(name);
+  int x = 5;
+  double p1 = 3.13;
+  bool isOpen = true;
+  print(isOpen);
+  var last_name = 'Gadiano';
+}
+
+User defined datatype
+
+void main() {
+  List<> arr_example = [20, 30, 'hello'];
+  var arr = [20, 30, 40, 75, 'name'];
+  print(arr);
+  print(arr_example); 
+}
 
