@@ -81,7 +81,7 @@ def __init__(self, damage: str, monster: Monster)
 You can reference the monster class into the player class
 
 implementation (method within class is called implementation)
-instruction (outside of the class)
+instruction (outside of the class )()
 
 -- association is bad practice so need --
 Inheritance
@@ -231,3 +231,6 @@ class Student{
     return '${firstName} ${lastName}';
   }
 }
+
+Websites 🕸️🕸️🕸️🕸️🕸️🕸️
+- pub.dev
