@@ -15,7 +15,7 @@ Procedural programming
 - algorithms and data managing
 
 Object-oriented Programming
-- Easiliy to understand 
+- Easily to understand 
 
 Object oriented Design (is not replaceable)
 - Important in programming
